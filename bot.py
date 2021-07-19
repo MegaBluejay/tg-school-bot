@@ -13,7 +13,7 @@ CommandHandler = curry(CommandHandler)
 MessageHandler = curry(MessageHandler)
 CallbackQueryHandler = curry(CallbackQueryHandler)
 
-TOKEN = '826409377:AAHQB2o4zQbFSEZkLDlhQaNv4GPoxRRfHGU'
+TOKEN = os.environ['TG_BOT_TOKEN']
 NAME = 'tg-school-bot'
 PORT = os.environ.get('PORT','8443')
 
